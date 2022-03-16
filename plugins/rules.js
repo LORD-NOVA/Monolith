@@ -23,7 +23,7 @@ let handler = async (m, { conn }) => {
 4. If you violate rule number 3 (insulting) then you will be picked up at your respective homes
 `.trim()
     conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*RULES*')
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/707WLbK.jpeg")).buffer(), haruno, '© Wizard-Ser', 'ᴍᴇɴᴜ', '.menu', 'ᴏᴡɴᴇʀ', '.owner', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/707WLbK.jpeg")).buffer(), haruno, '© ᴍᴏɴᴏʟɪᴛʜ', 'ᴍᴇɴᴜ', '.menu', 'ᴏᴡɴᴇʀ', '.owner', m)
 }
 handler.tags = ['main']
 handler.help = ['rules']
