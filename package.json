@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ajmal-Achu/Wizard-Ser.git"
+    "url": "git+https://github.com/N0-VA/Wizard-Ser.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -22,9 +22,9 @@
   "author": "ɴᴏᴠᴀ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ajmal-Achu/Wizard-Ser/issues"
+    "url": "https://github.com/N0-VA/Wizard-Ser/issues"
   },
-  "homepage": "https://github.com/Ajmal-Achu/Wizard-Ser",
+  "homepage": "https://github.com/N0-VA/Wizard-Ser",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "awesome-phonenumber": "^2.54.0",
