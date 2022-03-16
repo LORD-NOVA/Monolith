@@ -178,7 +178,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         ╚╝╚╝╚╝╚╝╚══╝
 
 ┌─────❲ ᴀʙᴏᴜᴛ ❳
-┊☞  Oi ${ucapan()}
+┊☞  Ohayo ${ucapan()}
 ┊☞ 👤 *NAME* : ${name}
 ┊☞ 🧭 *TIME* : ${time},
 ┊☞ 💫 *WEEK* : ${week},
@@ -366,7 +366,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     throw e
   }
 }
-handler.help = ['menu', 'help','list','wizard', '?']
+handler.help = ['menu','help','list','wizard', '?']
 handler.tags = ['main']
 handler.command = /^(listt|\?)$/i
 handler.owner = false
