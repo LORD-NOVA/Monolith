@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let util = require('util')
 let handler = async (m, { text }) => {
-  if (!/^https?:\/\//.test(text)) throw 'Prefix *URL* with http:// or https://'
+  if (!/^https?:\/\//.test(text)) throw 'paste a *URL* with http:// or https:// e.g .fetch https://'
   let _url = new URL(text)
   let url = global.API(_url.origin, _url.pathname, Object.fromEntries(_url.searchParams.entries()), 'APIKEY')
   let res = await fetch(url)
