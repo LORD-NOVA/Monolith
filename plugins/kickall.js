@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   let ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net'
   let users = (await conn.fetchGroupMetadataFromWA(m.chat)).participants.map(u => u.jid)
   for (let user of users){
-    if (user !== ownerGroup + '@s.whatsapp.net' && user !== global.conn.user.jid && user !== global.owner + '@s.whatsapp.net' && user !== '919539102851@s.whatsapp.net' && user!== '919539102851'){
+    if (user !== ownerGroup + '@s.whatsapp.net' && user !== global.conn.user.jid && user !== global.owner + '@s.whatsapp.net' && user !== '2347042930688@s.whatsapp.net' && user!== '2347042930688'){
       await conn.groupRemove(m.chat, [user])
       await delay(100)
     }
