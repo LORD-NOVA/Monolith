@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) return conn.reply(m.chat, `Usage examples:\n${usedPrefix + command} who am I? @919539102851 you are my owner ><`, m, { contextInfo: { mentionedJid: ['919539102851@s.whatsapp.net'] } })
+  if (!text) return conn.reply(m.chat, `Usage examples:\n${usedPrefix + command} who am I? @2347042930688 you are my owner ><`, m, { contextInfo: { mentionedJid: ['2347042930688@s.whatsapp.net'] } })
   let cm = copy(m)
   let who
   if (text.includes('@0')) who = '0@s.whatsapp.net'
