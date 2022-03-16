@@ -1,6 +1,6 @@
 let fs = require('fs')
-global.owner = ['918590967139','919744196187','917012074386'] // Letakan nomor kamu disini
-global.mods = [] // Moderator?
+global.owner = ['2347042930688'] // Letakan nomor kamu disini
+global.mods = ['2347042930688'] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
@@ -37,7 +37,7 @@ global.wait = '_*Please Wait..*_'
 global.eror = '_*Server Error*_'
 global.fla = 'https://i.imgur.com/707WLbK.jpeg'
 
-global.watermark = '© Wizard-Ser'
+global.watermark = '© Wizard-Ser by nova'
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
