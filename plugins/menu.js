@@ -168,7 +168,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `ᴡɪᴢᴀʀᴅ sᴇʀ  ʙʏ ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ,
+          "title": `ᴡɪᴢᴀʀᴅ sᴇʀ  ʙʏ nova,
 ┌─────❲ *ᴡɪᴢᴀʀᴅ sᴇʀ* ❳
 ┊
 └─────────────────❋ཻུ۪۪⸙
@@ -184,7 +184,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┊☞ 🧭 *TIME* : ${time},
 ┊☞ 💫 *WEEK* : ${week},
 ┊☞ ✅ *DATE* : ${date},
-┊☞ 💝 *OWNER* : ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ
+┊☞ 💝 *OWNER* : FY NOVA 2k
 ┊☞ 🖌️ *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
 ┊☞ ☮️ *BOT NAME* : ᴡɪᴢᴀʀᴅ sᴇʀ
 └─────────────────⸙ \n\ ______`
@@ -197,10 +197,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `WIZARD SER`,
-                  "description": "Wizard ser git link",
-                  "rowId": ".git"
-                }, {
                   "title": "💻Game",
                   "description": "Game features",
                   "rowId": ".? game"
