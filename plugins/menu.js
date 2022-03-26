@@ -393,19 +393,19 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('GMT/UTC').format('HH')
-  res = "Good Morning 🌄"
+  const time = moment.tz('GMT/UTC+1').format('HH')
+  res = "Ⓖ︎Ⓞ︎Ⓞ︎Ⓓ︎ Ⓜ︎Ⓞ︎Ⓡ︎Ⓝ︎Ⓘ︎Ⓝ︎Ⓖ︎🌄"
   if (time >= 5) {
-    res = "Good Morning 🌞"
+    res = "Ⓖ︎Ⓞ︎Ⓞ︎Ⓓ︎ Ⓜ︎Ⓞ︎Ⓡ︎Ⓝ︎Ⓘ︎Ⓝ︎Ⓖ︎🌞"
   }
   if (time >= 9) {
-    res = "Good afternoon 🌅"
+    res = "🅖︎🅞︎🅞︎🅓︎ 🅐︎🅕︎🅣︎🅔︎🅡︎🅝︎🅞︎🅞︎🅝︎🌅"
   }
   if (time >= 15) {
-    res = "Good Evening 🌆"
+    res = "🄶🄾🄾🄳 🄴🅅🄴🄽🄸🄽🄶🌆"
   }
   if (time >= 18) {
-    res = "Good Night 🌌"
+    res = "🅶︎🅾︎🅾︎🅳︎ 🅽︎🅸︎🅶︎🅷︎🆃︎🌌"
   }
   return res
 }
