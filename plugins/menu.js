@@ -167,7 +167,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `ʜᴇʟʟᴏ ᴛʜᴇʀᴇ ${name},
+          "title": `ʜᴇʏ ᴛʜᴇʀᴇ ${name}
+
 ┌─────❲ *ᴍᴏɴᴏʟɪᴛʜ* ❳
 ┊
 └─────────────────❋ཻུ۪۪⸙
@@ -178,7 +179,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             ╚╝╚╝╚══╝
 
 ┌─────❲ ᴀʙᴏᴜᴛ ❳
-┊☞${ucapan()}
+┊☞  ʜᴇʟʟᴏ ᴀɴᴅ ${ucapan()}
 ┊☞ 👤 *ɴᴀᴍᴇ* : ${name}
 ┊☞ 🧭 *ᴛɪᴍᴇ* : ${time},
 ┊☞ 💫 *ᴡᴇᴇᴋ* : ${week},
@@ -370,7 +371,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     throw e
   }
 }
-handler.help = ['menu' , 'help' , 'list' , 'nova', '?']
+handler.help = ['menu', 'help', 'list', 'nova', '?']
 handler.tags = ['main']
 handler.command = /^(listt|\?)$/i
 handler.owner = false
@@ -397,19 +398,19 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('GMT/UTC+1').format('HH')
-  res = "Ⓖ︎Ⓞ︎Ⓞ︎Ⓓ︎ Ⓜ︎Ⓞ︎Ⓡ︎Ⓝ︎Ⓘ︎Ⓝ︎Ⓖ︎🌄"
+  const time = moment.tz('Europe/Slovakia').format('HH')
+  res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌄 ${name}"
   if (time >= 5) {
-    res = "Ⓖ︎Ⓞ︎Ⓞ︎Ⓓ︎ Ⓜ︎Ⓞ︎Ⓡ︎Ⓝ︎Ⓘ︎Ⓝ︎Ⓖ︎🌞"
+    res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌞 ${name}"
   }
   if (time >= 9) {
-    res = "🅖︎🅞︎🅞︎🅓︎ 🅐︎🅕︎🅣︎🅔︎🅡︎🅝︎🅞︎🅞︎🅝︎🌅"
+    res = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ🌅 ${name}"
   }
   if (time >= 15) {
-    res = "🄶🄾🄾🄳 🄴🅅🄴🄽🄸🄽🄶🌆"
+    res = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🌆 ${name}"
   }
   if (time >= 18) {
-    res = "🅶︎🅾︎🅾︎🅳︎ 🅽︎🅸︎🅶︎🅷︎🆃︎🌌"
+    res = "ɢᴏᴏᴅ ɴɪɢʜᴛ🌌 ${name}"
   }
   return res
 }
