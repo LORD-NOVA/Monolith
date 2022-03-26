@@ -393,7 +393,7 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Africa/Nigeria').format('HH')
+  const time = moment.tz('GMT/UTC').format('HH')
   res = "Good Morning 🌄"
   if (time >= 5) {
     res = "Good Morning 🌞"
