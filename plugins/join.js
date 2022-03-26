@@ -11,9 +11,9 @@ let handler = async (m, { conn, text, usedPrefix }) => {
         else global.db.data.chats[res.gid].expired = now + jumlahHari
     })
     conn.sendButton(res.gid, `
-*${conn.user.name}* is a whatsapp bot built with Nodejs, *${conn.user.name}* invited by @${m.sender.split`@`[0]}
+*${conn.user.name}* ɪs ᴀ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙᴜɪʟᴛ ʙʏ ғʏ ɴᴏᴠᴀ 2ᴋ, *${conn.user.name}* ɪɴᴠɪᴛᴇᴅ ʙʏ @${m.sender.split`@`[0]}
     
-type *${usedPrefix}menu* to see a list of commands`.trim(), watermark, 'Menu', `${usedPrefix}?`, 0, { contextInfo: { mentionedJid: [m.sender] } })
+type *${usedPrefix}menu* to see a list of commands`.trim(), watermark, 'ᴍᴇɴᴜ', `${usedPrefix}?`, 0, { contextInfo: { mentionedJid: [m.sender] } })
 }
 handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['']
