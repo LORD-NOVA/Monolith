@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 
 let handler = async (m, { conn, text }) => {
-  if (!text) throw 'Nyari apa?'
+  if (!text) throw 'Wallpaper what?😒... E.g. .wallpaper Nova'
   let res = await fetch(global.API('https://wall.alphacoders.com/api2.0', '/get.php', {
     auth: '3e7756c85df54b78f934a284c11abe4e',
     method: 'search',
