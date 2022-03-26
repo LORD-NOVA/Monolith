@@ -9,7 +9,7 @@ handler.before = function(m, { text }) {
   let users = m.sender
 
     if (m.text > 5000) {
-  this.reply(m.chat, '*「 ANTI VIRTEX 」*\n\nDetected *${username}* sent a virtex link!\n\nSorry you will be punished!', m)
+  this.reply(m.chat, '*「 ANTI VIRTEX 」*\n\nDetected ${name} sent a virtex link!\n\nAnd you shall be punished!', m)
      this.groupRemove(m.chat, [users])
   }
 }
