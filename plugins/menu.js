@@ -167,19 +167,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `ʜᴇʏ ᴛʜᴇʀᴇ ${name}
+          "title": `ʜᴇʏ ᴛʜᴇʀᴇ, ${name}
 
 ┌─────❲ *ᴍᴏɴᴏʟɪᴛʜ* ❳
 ┊
 └─────────────────❋ཻུ۪۪⸙
         
-            ╔╗╔╗╔══╗
-            ║╚╝║╚║║╝
-            ║╔╗║╔║║╗
-            ╚╝╚╝╚══╝
+             ╔╗╔╗╔══╗
+             ║╚╝║╚║║╝
+             ║╔╗║╔║║╗
+             ╚╝╚╝╚══╝
 
 ┌─────❲ ᴀʙᴏᴜᴛ ❳
-┊☞  ʜᴇʟʟᴏ, ${ucapan()} ${name}
+┊☞   ${ucapan()} ${name}
 ┊☞ 👤 *ɴᴀᴍᴇ* : ${name}
 ┊☞ 🧭 *ᴛɪᴍᴇ* : ${time},
 ┊☞ 💫 *ᴡᴇᴇᴋ* : ${week},
@@ -398,7 +398,7 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Europe/Slovakia').format('HH')
+  const time = moment.tz('Africa/Lagos').format('HH')
   res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌄"
   if (time >= 5) {
     res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌞"
