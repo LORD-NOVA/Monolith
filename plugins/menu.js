@@ -178,7 +178,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         ╚╝╚╝╚══╝
 
 ┌─────❲ ᴀʙᴏᴜᴛ ❳
-┊☞  ʜɪ ${ucapan()}
+┊☞ ${ucapan()}
 ┊☞ 👤 *ɴᴀᴍᴇ* : ${name}
 ┊☞ 🧭 *ᴛɪᴍᴇ* : ${time},
 ┊☞ 💫 *ᴡᴇᴇᴋ* : ${week},
