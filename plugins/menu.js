@@ -167,7 +167,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `ʜᴇʏ ᴛʜᴇʀᴇ, ${name}
+          "title": `Hey There, How Are You Today? $name}
 
 ┌─────❲ *ᴍᴏɴᴏʟɪᴛʜ* ❳
 ┊
@@ -179,7 +179,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
              ╚╝╚╝╚══╝
 
 ┌─────❲ ᴀʙᴏᴜᴛ ❳
-┊☞   ${ucapan()} ${name}
+┊☞ ${ucapan()} ${name}
 ┊☞ 👤 *ɴᴀᴍᴇ* : ${name}
 ┊☞ 🧭 *ᴛɪᴍᴇ* : ${time},
 ┊☞ 💫 *ᴡᴇᴇᴋ* : ${week},
@@ -365,7 +365,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://camo.githubusercontent.com/5ab725ad8a78684cb30dcce25a65c41c5137d9ffe959809f82f5c79e8cf93f51/68747470733a2f2f74656c656772612e70682f66696c652f6237356530303133363937386464643161613535382e6a7067?raw=true")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ©', 'ʙᴏᴛ ᴏᴡɴᴇʀ', ',owner', 'ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs', '.? all', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.ibb.co/LSRYDJ8/1648478156073.jpg")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ©', 'ʙᴏᴛ ᴏᴡɴᴇʀ', ',owner', 'ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs', '.? all', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
