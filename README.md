@@ -1,7 +1,7 @@
 # Wizard-Ser
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/pPZmAXc.jpeg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.ibb.co/LSRYDJ8/1648478156073.jpg" width="200" height="200"/>
 
 <p align="center">
   <a href="https://instagram.com/ajmal_ibn_shanavas"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
