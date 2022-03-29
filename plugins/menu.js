@@ -190,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 └─────────────────⸙ \n\ ______`
           
            .trim(),
-           "description": "*DON'T SPAM*",
+           "description": "ī.am ꪶᴍᴏɴᴏʟɪᴛʜꫂ⁩⁴⁰⁴⁩",
           "buttonText": "✪ ᴄʟɪᴄᴋ ʜᴇʀᴇ ✪",
           "listType": "SINGLE_SELECT",
           "sections": [
@@ -400,16 +400,16 @@ function clockString(ms) {
 function ucapan() {
   const time = moment.tz('Africa/Lagos').format('HH')
   res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌄"
-  if (time >= 6) {
+  if (time >= 5) {
     res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌞"
   }
-  if (time >= 14) {
+  if (time >= 11) {
     res = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ🌅"
   }
-  if (time >= 17) {
+  if (time >= 16) {
     res = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🌆"
   }
-  if (time >= 20) {
+  if (time >= 19) {
     res = "ɢᴏᴏᴅ ɴɪɢʜᴛ🌌"
   }
   return res
