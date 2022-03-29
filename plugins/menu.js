@@ -13,7 +13,7 @@ const defaultMenu = {
 
 
 
-     〘 *ᗰOᑎOᒪITᕼ* 〙
+     ✪〘 *ᗰOᑎOᒪITᕼ* 〙✪
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
   body: '├ %cmd',
@@ -167,7 +167,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `🔸ʜᴇʏ ᴛʜᴇʀᴇ, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ᴅᴏɪɴɢ ᴛᴏᴅᴀʏ? ${name} 🔸
+          "title": `🔸ʜᴇʏ ᴛʜᴇʀᴇ, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ᴅᴏɪɴɢ ᴛᴏᴅᴀʏ ${name} ?🔸
 
 ┌─────✪ ❲ *ᴍᴏɴᴏʟɪᴛʜ* ❳ ✪
 ┊
@@ -400,7 +400,7 @@ function clockString(ms) {
 function ucapan() {
   const time = moment.tz('Africa/Lagos').format('HH')
   res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌄"
-  if (time >= 7) {
+  if (time >= 6) {
     res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌞"
   }
   if (time >= 14) {
