@@ -8,7 +8,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
   if (!name) throw 'Name cannot be empty (Alphanumeric)'
   if (!age) throw 'Age cant be empty (Number)'
   age = parseInt(age)
-  if (age > 70) throw 'Age too old'
+  if (age > 70) throw 'You're too old'
   if (age < 5) throw 'Babies can type according to the _format ._.'
   user.name = name.trim()
   user.age = age
