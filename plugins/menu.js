@@ -190,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 └─────────────────⸙ \n\ ______`
           
            .trim(),
-           "description": "```DON'T SPAM```⁩",
+           "description": "*DON'T SPAM*",
           "buttonText": "✪ ᴄʟɪᴄᴋ ʜᴇʀᴇ ✪",
           "listType": "SINGLE_SELECT",
           "sections": [
