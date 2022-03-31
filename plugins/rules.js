@@ -1,11 +1,11 @@
 let fetch = require ('node-fetch')
 let handler = async (m, { conn }) => {
-    let haruno = `┌ 「 Rules 」
-│ 🛂 Supervision by the owner
-│ ✅ Please comply
+    let haruno = `┌ 「 ʀᴜʟᴇs 」
+│『☞︎︎︎ These are the rules ☜︎︎︎』
+│『☞︎︎︎ Please Comply ☜︎︎︎』
 │ 
-│ Regulations can be at any time
-│changed for convenience
+│ Rules can be changed at anytime
+│for convenience
 └────
 1. Please don't spam bot commands
 2. Don't send virtex, bug, trojan, etc to bot number
@@ -17,13 +17,14 @@ let handler = async (m, { conn }) => {
 8. Please report any bugs via *!report*
 
 
- 「 Consequences 」
+ 「 ᴄᴏɴsᴇǫᴜᴇɴᴄᴇs 」
 1. If you violate rule number 5 (calling / vc) you will be blocked
 2. If you violate the rules number 1, 2, 3 then you can get banned from bots
 4. If you violate rule number 3 (insulting) then you will be picked up at your respective homes
+『You can send a message to the owner to add bot to your groups ᴠɪᴀ !owner』
 `.trim()
-    conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*RULES*')
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/707WLbK.jpeg")).buffer(), haruno, '© ᴍᴏɴᴏʟɪᴛʜ', 'ᴍᴇɴᴜ', '.menu', 'ᴏᴡɴᴇʀ', '.owner', m)
+    conn.fakeReply(m.chat, '*「 ⚠️ 」ʟᴏᴀᴅɪɴɢ...*', '0@s.whatsapp.net', '*RULES*')
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://camo.githubusercontent.com/5ab725ad8a78684cb30dcce25a65c41c5137d9ffe959809f82f5c79e8cf93f51/68747470733a2f2f74656c656772612e70682f66696c652f6237356530303133363937386464643161613535382e6a7067?raw=true")).buffer(), haruno, '© ᴍᴏɴᴏʟɪᴛʜ', 'ᴍᴇɴᴜ', '.menu', 'ᴏᴡɴᴇʀ', '.owner', m)
 }
 handler.tags = ['main']
 handler.help = ['rules']
