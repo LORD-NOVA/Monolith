@@ -8,32 +8,32 @@ let handler = async (m, { conn }) => {
 │for convenience
 └────
 │1. Please DON'T spam bot
-│ commands
+│commands
 │2. Don't send virtex, bug,
-│ trojan, etc to bot number
+│trojan, etc to bot number
 │3. Insulting the owner will be
-│ picked up directly at their respective homes
+│picked up directly at their respective homes
 │4. The bot/owner is not
-│ responsible for what the user
-│ does with the bot commands
+│responsible for what the user
+│does with the bot commands
 │5. Don't call / vc bot numbers
 │6. EXP/Limit/Level cheats are
-│ prohibited
+│prohibited
 │7. If the bot doesn't respond,
-│ it means it's off or under │maintenance
+│it means it's off or under │maintenance
 │8. Please report any bugs via
-│ !report
+│!report
 └────
 
  「 ᴄᴏɴsᴇǫᴜᴇɴᴄᴇs 」
 │1. If you violate rule number 5
-│ (calling) you will be blocked
+│(calling) you will be blocked
 │2. If you violate the rules
-│ number 1, 2, 3 then you will get
-│ banned from using my bots
+│number 1, 2, 3 then you will get
+│banned from using my bots
 │4. If you violate rule number 3
-│ (insulting) then it will be
-│ directed to your homes 
+│(insulting) then it will be
+│directed to your homes 
 └────
 『You can send a message to the owner to add bot to your groups via !owner』
 `.trim()
