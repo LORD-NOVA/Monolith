@@ -1,7 +1,7 @@
 # Monolith
 
 <div align="center">
-  <img border-radius: 15px src="https://i.ibb.co/R9rBVQh/IMG-20220401-WA0000.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="https://telegra.ph/file/18c3f1f10986adc752244.jpg" width="200" height="200"/>
 
 <p align="center">
   <a href="https://instagram.com/gideon_triumph"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
@@ -84,19 +84,18 @@ Click WA logo to Join Support Group 👇
 ----|
    `Re-Developer, Bug Fixes, Modules, Commits`
 
-   [![NOVA](https://i.imgur.com/sKzm7EK.jpeg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+   [![NOVA](https://https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
 ----|
    `Re-Developer, Bug Fixes, Modules, Commits`
 
-   [![NOVA](https://i.imgur.com/CqEfYef.jpeg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+   [![NOVA]https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://githuhub.com/N0-VA)
+   `Bug Fixes, Modules, Commits`
+
+[![NOVA](https://https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
 ----|
    `Bug Fixes, Modules, Commits`
 
-[![NOVA](https://telegra.ph/file/360ff7e7ca78006e5f8ad.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
-----|
-   `Bug Fixes, Modules, Commits`
-
-[![NOVA](https://telegra.ph/file/600e12ac7fbd5e766716c.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+[![NOVA](https://https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
 ----|
    `Bug Fixes, Modules`
 
