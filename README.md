@@ -1,7 +1,7 @@
 # ᴍᴏɴᴏʟɪᴛʜ
 
 <div align="center">
-  <img border-radius: 15px src="https://telegra.ph/file/18c3f1f10986adc752244.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.ibb.co/Wn5qnjw/IMG-20220401-WA0056.jpg" width="200" height="200"/>
 
 <p align="center">
   <a href="https://instagram.com/gideon_triumph"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
