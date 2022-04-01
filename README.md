@@ -1,10 +1,10 @@
-# ᴍᴏɴᴏʟɪᴛʜ
+# Wizard-Ser
 
 <div align="center">
-  <img border-radius: 15px src="https://i.ibb.co/Wn5qnjw/IMG-20220401-WA0056.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="https://camo.githubusercontent.com/ad4f876641ba323e1cfa0d19188b2c4427349951aad37afba96bb6f56ed997db/68747470733a2f2f692e6962622e636f2f576e35716e6a772f494d472d32303232303430312d5741303035362e6a7067?raw=true" width="200" height="200"/>
 
 <p align="center">
-  <a href="https://instagram.com/gideon_triumph"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://instagram.com/ajmal_ibn_shanavas"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
   <a href="https://wa.me/2347042930688"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
@@ -12,7 +12,7 @@
 <p align="center">
     <a href="https://git.io/J0hKr">
         <img
-        src="https://readme-typing-svg.herokuapp.com?size=30&width=800&lines=Monolith+Is+A+Modified+Version+Of;Eva+ByNova;We+Have+Cloned+The+Project+And+Added;Some+More+Things."
+        src="https://readme-typing-svg.herokuapp.com?size=30&width=800&lines=Wizard+Ser+Is+A+Modified+Version+Of;Eva+By+SudoAnirudh;We+Have+Cloned+The+Project+And+Added;Some+More+Things."
             alt="Typing SVG"
         />
     </a>
@@ -41,7 +41,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app) 
 
 Test
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/N0-VA/Wizard-Ser) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ajmal-Achu/Wizard-Ser) 
 ----------
 
 
@@ -62,40 +62,41 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
 `TURN OFF WEB NODE SERVER AND ENABLE WORKER NPM START`
 
 <p align="center">
-  <a href="https://github.com/N0-VA/Wizrad-Ser"><img src="https://i.imgur.com/aSw2GKZ.jpeg" />
+  <a href="https://github.com/Ajmal-Achu/Wizrad-Ser"><img src="https://i.imgur.com/aSw2GKZ.jpeg" />
 </p>
 
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/L07ermjENCeAXj5FScqyRj)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/IpM871JDwkSLLjenjV1YD4)
   <div align="center">
 
 
 ## Developers
   <div align="center">
   
-  [![NOVA](https://telegra.ph/file/b75e00136978ddd1aa558.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+  [![SudoAnirudh](https://telegra.ph/file/b75e00136978ddd1aa558.jpg)](https://github.com/SudoAnirudh)[`SudoAnirudh`](https://github.com/SudoAnirudh)
 ----|
    `Base, Bug Fixes, Modules`
 
-  [![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+  [![Ajmal](https://i.imgur.com/0eDfjxn.jpeg)](https://github.com/Ajmal-Achu)[`Ajmal`](https://github.com/Ajmal-Achu)
 ----|
    `Re-Developer, Bug Fixes, Modules, Commits`
 
-   [![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+   [![Achu](https://i.imgur.com/sKzm7EK.jpeg)](https://github.com/Ajmal-Achu)[`Achu`](https://github.com/Ajmal-Achu)
 ----|
    `Re-Developer, Bug Fixes, Modules, Commits`
 
-   [![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://githuhub.com/N0-VA)
-   `Bug Fixes, Modules, Commits`
-
-[![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+   [![DEVILSER](https://i.imgur.com/CqEfYef.jpeg)](https://github.com/DEVILSER)[`DEVILSER`](https://github.com/DEVILSER)
 ----|
    `Bug Fixes, Modules, Commits`
 
-[![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+[![JOKER_SER](https://telegra.ph/file/360ff7e7ca78006e5f8ad.jpg)](https://github.com/JOKER_SER)[`JOKER_SER`](https://github.com/JOKER_SER)
+----|
+   `Bug Fixes, Modules, Commits`
+
+[![SafwanGanz](https://telegra.ph/file/600e12ac7fbd5e766716c.jpg)](https://github.com/SafwanGanz)[`SafwanGanz`](https://github.com/SafwanGanz)
 ----|
    `Bug Fixes, Modules`
 
