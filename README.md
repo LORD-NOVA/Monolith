@@ -84,18 +84,18 @@ Click WA logo to Join Support Group 👇
 ----|
    `Re-Developer, Bug Fixes, Modules, Commits`
 
-   [![NOVA](https://https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+   [![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
 ----|
    `Re-Developer, Bug Fixes, Modules, Commits`
 
-   [![NOVA]https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://githuhub.com/N0-VA)
+   [![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://githuhub.com/N0-VA)
    `Bug Fixes, Modules, Commits`
 
-[![NOVA](https://https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+[![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
 ----|
    `Bug Fixes, Modules, Commits`
 
-[![NOVA](https://https://telegra.ph/file/18c3f1f10986adc752244.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+[![NOVA](https://camo.githubusercontent.com/7bb7a2426634e98cec7b33897692b06cc559d25feeaaaff9b181bee1e50316ce/68747470733a2f2f74656c656772612e70682f66696c652f3138633366316631303938366164633735323234342e6a7067)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
 ----|
    `Bug Fixes, Modules`
 
