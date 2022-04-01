@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-  if (!args[0]) throw `uhm.. where is the url?\n\nExample:\n${usedPrefix + command} https://vt.tiktok.com/`
+  if (!args[0]) throw `uhm.. where is the url?\n\nExample:\n${usedPrefix + command} https://vm.tiktok.com/`
   if (!args[0].match(/tiktok/gi)) throw `wrong url`
 
   let res = await fetch(API('hardianto', '/api/download/tiktok', { url: args[0] }, 'apikey'))
@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   let json = await res.json()
   // if (!json.status) throw json        
   await m.reply(wait)
-  await conn.sendFile(m.chat, json.nowm, '', `${json.caption}\n\n© Eva`, m)
+  await conn.sendFile(m.chat, json.nowm, '', `${json.caption}\n\n© monolith`, m)
 
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
