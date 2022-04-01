@@ -1,4 +1,4 @@
-# Monolith
+# ᴍᴏɴᴏʟɪᴛʜ
 
 <div align="center">
   <img border-radius: 15px src="https://telegra.ph/file/18c3f1f10986adc752244.jpg" width="200" height="200"/>
