@@ -365,7 +365,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://camo.githubusercontent.com/c924db7c31e232c4d9d4e4c36e8571e895bc6838ef1fb7c990da6a39ce926119/68747470733a2f2f692e6962622e636f2f523972425651682f494d472d32303232303430312d5741303030302e6a7067?raw=true")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ©', '✪ ʙᴏᴛ ᴏᴡɴᴇʀ ✪', '.owner', '✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ✪', '.?', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://camo.githubusercontent.com/ad4f876641ba323e1cfa0d19188b2c4427349951aad37afba96bb6f56ed997db/68747470733a2f2f692e6962622e636f2f576e35716e6a772f494d472d32303232303430312d5741303035362e6a7067?raw=true")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ©', '✪ ʙᴏᴛ ᴏᴡɴᴇʀ ✪', '.owner', '✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ✪', '.?', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
@@ -406,7 +406,7 @@ function ucapan() {
   if (time >= 11) {
     res = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ🌅"
   }
-  if (time >= 16) {
+  if (time >= 17) {
     res = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🌆"
   }
   if (time >= 19) {
