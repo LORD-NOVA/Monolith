@@ -275,13 +275,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "title": "🔸ᴏᴡɴᴇʀ🔸",
                   "description": "ᴏᴡɴᴇʀ's sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs",
                   "rowId": ".? owner"
-                },{
+                }, {
                   "title": "🔸ʙᴏᴛ ᴏᴡɴᴇʀ🔸",
                   "description": "ᴡʜᴏ's ᴍʏ ᴍᴀsᴛᴇʀ?",
                   "rowId": ".owner" 
                 },{
                    "title": "ᴍᴏɴᴏʟɪᴛʜ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ"
-                   "rowId": "#support"
+                   "description": "ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
+                   "rowId": ".support"
                 }
               ]
             }
