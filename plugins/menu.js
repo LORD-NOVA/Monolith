@@ -279,6 +279,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "title": "🔸ʙᴏᴛ ᴏᴡɴᴇʀ🔸",
                   "description": "ᴡʜᴏ's ᴍʏ ᴍᴀsᴛᴇʀ?",
                   "rowId": ".owner" 
+                },{
+                   "title": "ᴍᴏɴᴏʟɪᴛʜ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ"
+                   "rowId": "#support"
                 }
               ]
             }
