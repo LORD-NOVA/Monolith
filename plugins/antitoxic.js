@@ -9,7 +9,7 @@ Get used to it, don't be toxic! :)
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
-handler.customPrefix = /bitch|fuck|nude|fucker|myre|pussy|kunna|andi|poori|nigga|damn|crazy|mad|stupid|poor/i
+handler.customPrefix = /bitch|fuck|nude|fucker|myre|kunna|andi|poori|nigga|damn|crazy|mad|stupid|poor/i
 handler.command = new RegExp
 
 module.exports = handler
