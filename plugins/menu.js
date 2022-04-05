@@ -167,7 +167,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `🏮🎐ʜᴇʏ ᴛʜᴇʀᴇ, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ᴅᴏɪɴɢ ᴛᴏᴅᴀʏ ${name} ?🎐🏮
+          "title": `🏮ʜᴇʏ ᴛʜᴇʀᴇ, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ᴅᴏɪɴɢ ᴛᴏᴅᴀʏ ${name} ?🏮
 
 ┌─────✪ ❲ *ᴍᴏɴᴏʟɪᴛʜ* ❳ ✪
 ┊
@@ -190,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 └─────────────────⸙ \n\ ______`
           
            .trim(),
-           "description": "*🧧🎐ᴜsᴇ #sᴜᴘᴘᴏʀᴛ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🧧🎐*",
+           "description": "*🧧ᴜsᴇ #sᴜᴘᴘᴏʀᴛ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🧧*",
           "buttonText": "✪ ᴄʟɪᴄᴋ ʜᴇʀᴇ ✪",
           "listType": "SINGLE_SELECT",
           "sections": [
@@ -202,7 +202,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? game"
 
                 }, {
-                  "title": "🏮xᴘ🏮",
+                  "title": "🎐xᴘ🎐",
                   "description": "ʟᴇᴠᴇʟ xᴘ ᴀɴᴅ ʟɪᴍɪᴛs",
                   "rowId": ".? xp"
 
@@ -216,7 +216,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "ғᴇᴀᴛᴜʀᴇs ғᴏʀ ᴍᴀᴋɪɴɢ sᴛɪᴄᴋᴇʀs",
                   "rowId": ".? stiker"
                 }, { 
-                "title": "🧧ᴀɴɪᴍᴇ🧧",
+                "title": "🎐ᴀɴɪᴍᴇ🎐",
                 "description": "ᴀɴɪᴍᴇ ʀᴇʟᴀᴛᴇᴅ ᴘʟᴜɢɪɴs",
                 "rowId": ".? anime"
               },  {
@@ -228,55 +228,55 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs",
                   "rowId": ".? admin"
                 }, {
-                  "title": "🔸ɢʀᴏᴜᴘ🔸",
+                  "title": "🎐ɢʀᴏᴜᴘ🎐",
                   "description": "ɢʀᴏᴜᴘ ʀᴇʟᴀᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅs",
                   "rowId": ".? grup"
                 }, {
-                  "title": "🧧ᴘʀᴇᴍɪᴜᴍ🧧",
+                  "title": "🎐ᴘʀᴇᴍɪᴜᴍ🎐",
                   "description": "ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ᴘʟᴜɢɪɴs",
                   "rowId": ".? premium"
                 }, {
-                  "title": "🔸ɪɴᴛᴇʀɴᴇᴛ🔸",
+                  "title": "🎐ɪɴᴛᴇʀɴᴇᴛ🎐",
                   "description": "ɪɴᴛᴇʀɴᴇᴛ ʀᴇʟᴀᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅs",
                   "rowId": ".? internet"
                 }, {
-                  "title": "🔸ᴀɴᴏɴʏᴍᴏᴜs🔸",
+                  "title": "🎐ᴀɴᴏɴʏᴍᴏᴜs🎐",
                   "description": "sᴛᴀʀᴛ ᴀɴᴏɴʏᴍᴏᴜs ᴄʜᴀᴛᴛɪɴɢ",
                   "rowId": ".? anonymous"
                 }, {
                   "title": "🎐ᴍᴀɢɪᴄ sʜᴇʟʟ🎐",
                   "description": "ʀᴀɴᴅᴏᴍ ᴀɴsᴡᴇʀ ғᴇᴀᴛᴜʀᴇs",
-                  "rowId": `.? magicshell`
+                  "rowId": `.support`
                 }, {
-                  "title": "🔸ɴᴜʟɪs ᴀɴᴅ ʟᴏɢᴏ🔸",
+                  "title": "🎐ɴᴜʟɪs ᴀɴᴅ ʟᴏɢᴏ🎐",
                   "description": "ᴛᴇxᴛ ᴀɴᴅ ʟᴏɢᴏ ᴍᴀᴋᴇʀ",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "🔸ᴅᴏᴡɴʟᴏᴀᴅᴇʀ🔸",
+                  "title": "🎐ᴅᴏᴡɴʟᴏᴀᴅᴇʀ🎐",
                   "description": "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴄᴏᴍᴍᴀɴᴅs",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "🔸ᴛᴏᴏʟs🔸",
+                  "title": "🎐ᴛᴏᴏʟs🎐",
                   "description": "ᴛᴏᴏʟs ғᴇᴀᴛᴜʀᴇs",
                   "rowId": ".? tools"
                 }, {
-                  "title": "🔸ᴠᴏɪᴄᴇ ᴄʜᴀɴɢᴇʀ🔸",
+                  "title": "🎐ᴠᴏɪᴄᴇ ᴄʜᴀɴɢᴇʀ🎐",
                   "description": "ᴛᴏ ᴄʜᴀɴɢᴇ ᴀᴜᴅɪᴏ sᴏᴜɴᴅ",
                   "rowId": `.? audio`
                 }, {
-                  "title": "🔸ғᴜɴ🔸",
+                  "title": "🎐ғᴜɴ🎐",
                   "description": "ᴊᴜsᴛ ғᴏʀ ғᴜɴ",
                   "rowId": ".? fun"
                 }, {
-                  "title": "🔸ᴅᴀᴛᴀʙᴀsᴇ🔸",
+                  "title": "🎐ᴅᴀᴛᴀʙᴀsᴇ🎐",
                   "description": "ᴜsᴇʀ ᴅᴀᴛᴀʙᴀsᴇ",
                   "rowId": ".? database"
                 }, {
-                  "title": "🔸ᴏᴡɴᴇʀ🔸",
+                  "title": "🎐ᴏᴡɴᴇʀ🎐",
                   "description": "ᴏᴡɴᴇʀ's sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs",
                   "rowId": ".? owner"
                 },{
-                  "title": "🔸ʙᴏᴛ ᴏᴡɴᴇʀ🔸",
+                  "title": "🎐ʙᴏᴛ ᴏᴡɴᴇʀ🎐",
                   "description": "ᴡʜᴏ's ᴍʏ ᴍᴀsᴛᴇʀ?",
                   "rowId": ".owner"
                 }
@@ -373,7 +373,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 }
 handler.help = ['menu', 'help', 'list', 'nova', '?']
 handler.tags = ['main']
-handler.command = /^(listt|\?)$/i
+handler.command = /^(listt|help|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
