@@ -1,13 +1,13 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, command, args }) => {
   let full = /f$/i.test(command)
-  if (!args[0]) return conn.reply(m.chat, 'No url', m)
+  if (!args[0]) return conn.reply(m.chat, 'Where is the URL', m)
   let url = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
-  let ss = await (await fetch(global.API('xteam', '/ss', { delay: 1000, url, full }))).buffer()
-  conn.sendFile(m.chat, ss, 'screenshot.png', url, m, 0, { thumbnail: ss })
+  let ss = await (await fetch(global.API('nrtm', '/api/ssweb', { delay: 1000, url, full }))).buffer()
+  conn.sendFile(m.chat, ss, 'screenshot.png', url, m)
 }
-handler.help = ['ss', 'ssf'].map(v => v + ' <url>')
-handler.tags = ['internet']
+handler.help = ['ss'].map(v => v + ' <url>')
+handler.tags = ['tools']
 handler.command = /^ss(web)?f?$/i
 handler.owner = false
 handler.mods = false
@@ -21,3 +21,4 @@ handler.botAdmin = false
 handler.fail = null
 
 module.exports = handler
+
