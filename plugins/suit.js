@@ -8,7 +8,7 @@ let poin_lose = -100
 let handler = async (m, { conn, usedPrefix }) => {
   conn.suit = conn.suit ? conn.suit : {}
   if (Object.values(conn.suit).find(room => room.id.startsWith('suit') && [room.p, room.p2].includes(m.sender))) throw 'Complete your previous suit'
-  if (!m.mentionedJid[0]) return m.reply(`_Who do you want to challenge?_\nTag the person.. Example\n\n${usedPrefix}suit @${global.owner}`, m.chat, { contextInfo: { mentionedJid: [global.owner + '@s.whatsapp.net'] } })
+  if (!m.mentionedJid[0]) return m.reply(`_Who do you want to challenge?_\nTag the person.. Example\n\n${usedPrefix}suit @${global.owner[0]}`, m.chat, { contextInfo: { mentionedJid: [global.owner[0] + '@s.whatsapp.net'] } })
   if (Object.values(conn.suit).find(room => room.id.startsWith('suit') && [room.p, room.p2].includes(m.mentionedJid[0]))) throw `The person you are challenging is playing suit with someone else :(`
   let id = 'suit_' + new Date() * 1
   let caption = `
