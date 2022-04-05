@@ -10,7 +10,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
   })
 }
 handler.help = ['brainly <question>']
-handler.tags = ['magicshell']
+handler.tags = ['fun']
 
 handler.command = /^brainly$/i
 
