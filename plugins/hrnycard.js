@@ -1,31 +1,13 @@
-const uploadImage = require('../lib/uploadImage')
-const { sticker } = require('../lib/sticker')
-const { MessageType } = require('@adiwajshing/baileys')
-
-let handler = async (m, { conn, text }) => {
-  await m.reply(global.wait)
-try {
-  let q = m.quoted ? m.quoted : m
-  let mime = (q.msg || q).mimetype || ''
-  if (!mime) throw 'No picture'
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `Mime ${mime} is not supported`
-  let img = await q.download()
-  let url = await uploadImage(img)
-  let Horny = `https://some-random-api.ml/canvas/horny?avatar=${pp}`
-  let stiker = await sticker(null, Horny, 'Horny', '@Eva')
-  conn.sendMessage(m.chat, stiker, MessageType.sticker, {
-    quoted: m
-  })
-} catch (e) {
-  m.reply('Conversion Failed')
-  }
+let handler = async (m, { conn }) => {
+  let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  conn.sendFile(m.chat, global.API('https://some-random-api.ml', '/canvas/horny', {
+    avatar: await conn.getProfilePicture(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
+  }), 'hornycard.png', 'horny:>', m)
 }
 
+handler.help = ['hornycard/hornylicense']
+handler.tags = ['fun']
 
-handler.help = ['hrnycard (caption|reply media)']
-handler.tags = ['sticker']
-handler.command = /^(hrnycard)$/i
-handler.limit = true
-handler.group = false
-handler.register = true
+handler.command = /^(horny(card|license))$/i
+
 module.exports = handler
