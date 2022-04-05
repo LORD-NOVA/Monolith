@@ -1,6 +1,5 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
-  if (!text) throw `uhm.. which number?\nexample:\n\n${usedPrefix + command + ' ' + global.owner[0]}`
+let handler = async (m, { conn, text, participants }) => {
   let _participants = participants.map(user => user.jid)
   let users = (await Promise.all(
     text.split(',')
@@ -12,7 +11,6 @@ let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
       ])
   )).filter(v => v[1]).map(v => v[0] + '@c.us')
   let response = await conn.groupAdd(m.chat, users)
-  if (response[users] == 408) throw `_Failed!_\n\nThe number has been dialed recently\nCan only enter via *${usedPrefix}link* grup`
   let pp = await conn.getProfilePicture(m.chat).catch(_ => false)
   let jpegThumbnail = pp ? await (await fetch(pp)).buffer() : false
   for (let user of response.participants.filter(user => Object.values(user)[0].code == 403)) {
@@ -20,10 +18,10 @@ let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
       invite_code,
       invite_code_exp
     }]] = Object.entries(user)
-    let teks = `Inviting @${jid.split`@`[0]} using invitation...`
-    m.reply(teks, null, {
+    let text = `Inviting @${jid.split('@')[0]} use invite...`
+    m.reply(text, null, {
       contextInfo: {
-        mentionedJid: conn.parseMention(teks)
+        mentionedJid: conn.parseMention(text)
       }
     })
     await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, false, 'Invitation to join my WhatsApp group', jpegThumbnail ? {
@@ -31,8 +29,8 @@ let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
     } : {})
   }
 }
-handler.help = ['add', '+'].map(v => v + ' number,number')
-handler.tags = ['admin']
+handler.help = ['add', '+'].map(v => v + ' number')
+handler.tags = ['admins']
 handler.command = /^(add|\+)$/i
 handler.owner = false
 handler.mods = false
