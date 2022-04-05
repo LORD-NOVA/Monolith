@@ -31,7 +31,7 @@ let handler = async (m, { conn, text }) => {
     if (stiker) await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })
-    else throw 'Reply to the sticker!'
+    else throw 'Baka!!! Have you ever seen anyone use the word #help?'
   }
 }
 handler.help = ['wm <packname>|<author>']
