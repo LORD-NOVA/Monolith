@@ -1,7 +1,7 @@
 # Monolith
 
 <div align="center">
-  <img border-radius: 15px src="https://telegra.ph/file/cc1da0da43a2a5877c4a1.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="https://telegra.ph/file/d27a76e28e30db3692e3b.jpg" width="200" height="200"/>
 
 <p align="center">
   <a href="https://instagram.com/gideon_triumph"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
