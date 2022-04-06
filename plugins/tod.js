@@ -1,31 +1,26 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, command }) => {
+
+let handler = async (m, { conn, command, usedPrefix }) => {
   if (/^tod$/i.test(command)) {
-    conn.send3Button(m.chat, 'Truth or Dare', 'made with ❤️ by ariffb', 'TRUTH', ',truth', 'DARE', ',dare', 'RANDOM', `${pickRandom([',dare', ',truth'])}`)
+    await conn.send3Button(m.chat, 'Truth or Dare', 'ᴛʀᴜᴛʜ', 'Truth', `${usedPrefix}truth`, 'Dare', `${usedPrefix}dare`, 'Acak', `${conn.pickRandom([`${usedPrefix}dare`, `${usedPrefix}truth`])}`, m)
   }
   if (/^truth$/i.test(command)) {
-    let res = await fetch(global.API('pencarikode', '/api/truthid', {}, 'apikey'))
-    if (!res.ok) throw await `${res.status} ${res.statusText}`
+    let res = await fetch(API('amel', '/truth', {}, 'apikey'))
+    if (!res.ok) throw eror
     let json = await res.json()
-    if (json.message == "") throw json
-    conn.send3Button(m.chat, json.message, '', 'TRUTH', ',truth', 'DARE', ',dare', 'RANDOM', `${pickRandom([',dare', ',truth'])}`)
-
+    if (!json.status) throw json
+    conn.send2Button(m.chat, json.result, 'ᴍᴏɴᴏʟɪᴛʜ', 'Truth', `${usedPrefix}truth`, 'Dare', `${usedPrefix}dare`, m)
   }
   if (/^dare$/i.test(command)) {
-    let res = await fetch(global.API('pencarikode', '/api/dareid', {}, 'apikey'))
-    if (!res.ok) throw await `${res.status} ${res.statusText}`
+    let res = await fetch(API('amel', '/dare', {}, 'apikey'))
+    if (!res.ok) throw eror
     let json = await res.json()
-    if (json.message == "") throw json
-    conn.send3Button(m.chat, json.message, '', 'TRUTH', ',truth', 'DARE', ',dare', 'RANDOM', `${pickRandom([',dare', ',truth'])}`)
-
+    if (!json.status) throw json
+    conn.send2Button(m.chat, json.result, 'ᴍᴏɴᴏʟɪᴛʜ', 'Truth', `${usedPrefix}truth`, 'Dare', `${usedPrefix}dare`, m)
   }
 }
 handler.help = ['tod']
 handler.tags = ['fun']
 handler.command = /^(tod|truth|dare)$/i
 
-module.exports = handler
-
-function pickRandom(list) {
-  return list[Math.floor(list.length * Math.random())]
-}
+module.exports = handler 
