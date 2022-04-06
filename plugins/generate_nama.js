@@ -33,7 +33,7 @@ function handler(m, { text }) {
 }
 handler.help = ['Namaninja <teks>']
 handler.tags = ['fun']
-handler.command =  /^(namaninja|name)$/i
+handler.command =  /^(namaninja|nama)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
