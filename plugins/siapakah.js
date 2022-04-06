@@ -12,7 +12,7 @@ let handler = async (m, { conn, participants, command, text }) => {
     conn.reply(m.chat, jawab, m)
 }
 handler.help = ['', 'kah'].map(v => 'siapa' + v + ' <text>')
-handler.tags = ['shell']
+handler.tags = ['fun']
 handler.command = /^siapa(kah)?$/i
 
 module.exports = handler
