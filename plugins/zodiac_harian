@@ -1,9 +1,9 @@
 let axios = require('axios')
 let cheerio = require('cheerio')
 let handler = async (m, { conn, text, command, args }) => {
-  if(!text) throw `Ulangi dengan menambahkan zodiak\n*Contoh* : ${usedPrefix + command} libra
+  if(!text) throw `Invalid input...\n*Example..* : ${usedPrefix + command} libra
 
-▢ *List zodiak*
+▢ *List zodiac*
 
 - Capricorn
 - Aquarius
@@ -43,9 +43,9 @@ conn.sendFile(m.chat, thumb, 'zodiak.jpeg' , caption, m)
 }
 }
 
-handler.help = ['Zodiakharian <zodiak>']
+handler.help = ['Zodiakharian <zodiac>']
 handler.tags = ['internet']
-handler.command = /^zodiakharian?$/i
+handler.command = /^zodiakharian$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
@@ -55,7 +55,5 @@ handler.register = true
 handler.admin = false
 handler.botAdmin = false
 module.exports = handler
+module.exports = handler
 
-/*
-@mrf.zvx
-*/
