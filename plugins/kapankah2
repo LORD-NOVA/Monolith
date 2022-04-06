@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, text }) => {
 `.trim())
 }
 handler.help = ['', 'kah'].map(v => 'kapan' + v + ' <pertanyaan>')
-handler.tags = ['shell']
+handler.tags = ['fun']
 handler.command = /^kapan(kah)?$/i
 
 module.exports = handler 
