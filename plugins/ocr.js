@@ -5,8 +5,8 @@ const tesseract = require("node-tesseract-ocr");
 let handler = async (m, { usedPrefix, command }) => {
   let q = m.quoted ? m.quoted : m;
   let mime = (q.msg || q).mimetype || "";
-  if (!mime) throw `ini tu gunanya buat ngambil teks yang ada digambar, kirim/balas gambar dengan perintah ${usedPrefix + command}`
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `Mime ${mime} tidak didukung!`;
+  if (!mime) throw `Reply image with texts on it with ${usedPrefix + command}`
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `Mime ${mime} not supported!`;
   let img = await q.download();
   //let url = await uploadImage(img);
   tesseract
