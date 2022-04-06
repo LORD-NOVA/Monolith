@@ -1,13 +1,27 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-    await conn.sendButton(m.chat, `“${conn.pickRandom(global.galau)}”`, '© ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3', 'Galau', `${usedPrefix + command}`, m)
+  await conn.sendButton(m.chat, `“${pickRandom(global.galau)}”`, watermark, 'ǫᴜᴏᴛᴇs', `${usedPrefix + command}`)
 }
-handler.help = ['galau']
+handler.help = ['lovequotes']
 handler.tags = ['quotes']
-handler.command = /^(galau)$/i
+handler.command = /^(lovequotes)$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
 
 module.exports = handler
 
-global.galau = [
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())]
+}
+
+global.galau = [ 
     "It's not wrong if I expect more from someone who is more certain without breaking promises",
     "If I really don't love you, why am I thinking about you. But all of you think I don't love you",
     "Don't be jealous and sad if you don't have the ability that other people have. Rest assured that other people also don't have the ability like you",
@@ -94,5 +108,4 @@ global.galau = [
     "Getting back with you is the same as committing suicide and hurting my own feelings",
     "There's no need to retaliate by hurting so that Karma will take care of all that",
     "I still remember you but my feelings don't hurt like before",
-    "Have your own sentence & want to add it? chat *.owner*
 ]
