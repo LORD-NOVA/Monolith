@@ -246,7 +246,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 }, {
                   "title": "🎐ᴍᴀɢɪᴄ sʜᴇʟʟ🎐",
                   "description": "ʀᴀɴᴅᴏᴍ ᴀɴsᴡᴇʀ ғᴇᴀᴛᴜʀᴇs",
-                  "rowId": `.shell`
+                  "rowId": `.? shell`
                 }, {
                   "title": "🎐ɴᴜʟɪs ᴀɴᴅ ʟᴏɢᴏ🎐",
                   "description": "ᴛᴇxᴛ ᴀɴᴅ ʟᴏɢᴏ ᴍᴀᴋᴇʀ",
