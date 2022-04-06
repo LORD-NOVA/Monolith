@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
 `.trim())
 }
 handler.help = ['', 'kah'].map(v => 'kapan' + v + ' <text>?')
-handler.tags = ['shell']
+handler.tags = ['fun']
 handler.customPrefix = /(\?$)/
 handler.command = /^kapan(kah)?$/i
 
