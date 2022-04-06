@@ -4,8 +4,8 @@ const { promisify } = require('util')
 const { join } = require('path')
 
 let confirmation = {}
-let repository = 'N0-VA/Wizard-ser'
-let branch = 'master'
+let repository = 'N0-VA/Monolith'
+let branch = 'main'
 
 async function handler(m, { text }) {
     let res = await fetch(`https://raw.githubusercontent.com/${repository}/${branch}/${text}`)
@@ -18,7 +18,7 @@ async function handler(m, { text }) {
             text,
             timeout: setTimeout(() => (m.reply('timed out'), delete confirmation[m.sender]), 60000)
         }
-        throw 'The file already exists, are you sure you want to overwrite? (Y/n) (60s Timeout)'
+        throw 'The file already exists, are you sure you want to overwrite it? (Y/n) (60s Timeout)'
     }
     res.body.pipe(createWriteStream(filename))
     res.body.once('end', () => {
@@ -46,10 +46,8 @@ handler.all = async m => {
         return !0
     }
 }
-
-handler.rowner = true
 handler.help = ['update2']
-handler.tags = ['host']
+handler.tags = ['owner']
 handler.command = ['update2']
 
 handler.rowner = true
