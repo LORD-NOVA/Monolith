@@ -244,8 +244,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "sᴛᴀʀᴛ ᴀɴᴏɴʏᴍᴏᴜs ᴄʜᴀᴛᴛɪɴɢ",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "🎐ᴍᴀɢɪᴄ sʜᴇʟʟ🎐",
-                  "description": "ʀᴀɴᴅᴏᴍ ᴀɴsᴡᴇʀ ғᴇᴀᴛᴜʀᴇs",
+                  "title": "🎐sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🎐",
+                  "description": "ᴍᴏɴᴏʟɪᴛʜ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
                   "rowId": `.support`
                 }, {
                   "title": "🎐ɴᴜʟɪs ᴀɴᴅ ʟᴏɢᴏ🎐",
@@ -365,7 +365,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://telegra.ph/file/4bd12722910126f07ef7c.jpg")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ©', '✪ ʙᴏᴛ ᴏᴡɴᴇʀ ✪', '.owner', '✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ✪', '.?', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://telegra.ph/file/57082d45c8110db8a6f24.jpg")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ©', '✪ ʙᴏᴛ ᴏᴡɴᴇʀ ✪', '.owner', '✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ✪', '.?', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
