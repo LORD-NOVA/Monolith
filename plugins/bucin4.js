@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  await conn.sendButton(m.chat, `“${pickRandom(global.bucin)}”`, watermark, 'Good Night', `${usedPrefix + command}`)
+  await conn.sendButton(m.chat, `“${pickRandom(global.bucin4)}”`, watermark, 'Good Night', `${usedPrefix + command}`)
 }
 handler.help = ['goodnight|gn']
 handler.tags = ['quotes']
@@ -21,7 +21,7 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.bucin = [
+global.bucin4 = [
   "😘𝙂𝙤𝙤𝙙 🙈𝙣𝙞𝙜𝙝𝙩 💫✨",
   "🤗𝓖𝓸𝓸𝓭 🧚‍♀𝓷𝓲𝓰𝓱𝓽 ❄️✨",
   "🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎",
