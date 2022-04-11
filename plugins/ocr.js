@@ -1,29 +1,40 @@
-//const uploadImage = require("../lib/uploadImage");
-//const fetch = require("node-fetch");
-const tesseract = require("node-tesseract-ocr");
+const Asena = require("../Utilis/events")
+const Config = require("../config")
+const tesseract = require("node-tesseract-ocr")
+const langs = require("langs")
+const Language = require("../language")
+const Lang = Language.getString("ocr")
+// let fm = Config.PRIVATE == true ? true : false;
+Asena.addCommand(
+  { pattern: "txt ?(.*)", fromMe: true, desc: Lang.OCR_DESC, usage: "txt en" },
+  async (message, match) => {
+    if (message.reply_message === false || !message.reply_message.image)
+      return await message.sendMessage(Lang.NEED_REPLY)
+    await message.reply(Lang.DOWNLOADING)
+    var location = await message.reply_message.downloadAndSaveMediaMessage(
+      "yxy"
+    )
+    var dil
+    if (match !== "") {
+      dil = langs.where("1", match)
+    } else {
+      dil = langs.where("1", Config.LANG.toLowerCase())
+    }
+    try {
+      var result = await tesseract.recognize(location, {
+        lang: dil[2],
+      })
+    } catch (e) {
+      return await message.reply(Lang.ERROR.format(e))
+    }
+    if (result === " " || result.length == 1) {
+      return await message.reply(Lang.ERROR.format(" Empty text"))
+    }
 
-let handler = async (m, { usedPrefix, command }) => {
-  let q = m.quoted ? m.quoted : m;
-  let mime = (q.msg || q).mimetype || "";
-  if (!mime) throw `Reply image with texts on it with ${usedPrefix + command}`
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `Mime ${mime} not supported!`;
-  let img = await q.download();
-  //let url = await uploadImage(img);
-  tesseract
-    .recognize(img, {})
-    .then((text) => {
-      //console.log("Result:", text);
-      m.reply(text);
-    })
-    .catch((error) => {
-      console.log(error.message);
-      throw eror
-    });
-};
-handler.help = ["ocr"];
-handler.tags = ["tools"];
+    return await message.reply(Lang.RESULT.format(dil[2], result))
+}
+handler.help = ['ocr']
+handler.tag = ['tools']
 handler.command = /^ocr$/i;
 
-handler.limit = true;
-
-module.exports = handler;
+module.exports = handler
