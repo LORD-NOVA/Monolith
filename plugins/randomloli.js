@@ -355,8 +355,8 @@ const dir = [
 let handler = async (m, { conn }) => {
   conn.sendFile(m.chat, dir[Math.floor(Math.random() * dir.length)], 'loli.jpg', '', m)
 }
-handler.help = ['loli']
+handler.help = ['uwu']
 handler.tags = ['anime']
-handler.command = /^loli$/i
+handler.command = /^uwu$/i
 
 module.exports = handler
