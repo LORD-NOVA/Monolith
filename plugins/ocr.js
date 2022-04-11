@@ -37,4 +37,6 @@ handler.help = ['ocr']
 handler.tag = ['tools']
 handler.command = /^ocr$/i;
 
+handler.limit = true
+
 module.exports = handler
