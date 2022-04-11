@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  await conn.sendButton(m.chat, `“${pickRandom(global.bucin)}”`, watermark, 'Quotes', `${usedPrefix + command}`)
+  await conn.sendButton(m.chat, `“${pickRandom(global.bucin2)}”`, watermark, 'Quotes', `${usedPrefix + command}`)
 }
 handler.help = ['lovequotes']
 handler.tags = ['quotes']
@@ -21,7 +21,7 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.bucin = [
+global.bucin2 = [
   "It's not wrong if I expect more from someone who is more certain without breaking promises",
   "If I really don't love you, why am I thinking about you. But all of you think I don't love you",
   "Don't be jealous and sad if you don't have the ability that other people have. Rest assured that other people also don't have the ability like you",
