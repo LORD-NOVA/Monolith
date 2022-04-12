@@ -32,7 +32,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 }
 handler.help = ['song','play','?'].map(v => v + ' <query>')
 handler.tags = ['downloader']
-handler.command = /^(play|song)$/i
+handler.command = /^(play|song|music|yt)$/i
 
 handler.exp = 0
 
