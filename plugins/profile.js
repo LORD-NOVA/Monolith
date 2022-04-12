@@ -44,6 +44,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 🔐Registered: ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Registered'}${lastclaim > 0 ? '\n\n🎐Last Claim: ' + new Date(lastclaim).toLocaleString() : ''}
 
 🚫Banned: False
+
+💠Limit: 10
+
+🔮Level: ${who.level}
 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', banned ? 'if you get banned' : str, m, false, { contextInfo: { mentionedJid } })
