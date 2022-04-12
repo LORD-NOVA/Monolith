@@ -3,6 +3,7 @@ let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix }) => {
   let pp = './src/avatar_contact.png'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  let user = global.db.data.user[who]
   try {
     pp = await conn.getProfilePicture(who)
   } catch (e) {
@@ -33,7 +34,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let username = conn.getName(who)
     let math = max - xp
     let str = `
-✨Name: ${username} ${registered ? '(' + name + ') ' : ''}(@${who.replace(/@.+/, '')})${about != 401 ? '\n\n⚜️Info: ' + about : ''}
+⚔️Name: ${username} ${registered ? '(' + name + ') ' : ''}(@${who.replace(/@.+/, '')})${about != 401 ? '\n\n⚜️Info: ' + about : ''}
 
 🎴Number: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 
@@ -43,11 +44,13 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 🔐Registered: ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Registered'}${lastclaim > 0 ? '\n\n🎐Last Claim: ' + new Date(lastclaim).toLocaleString() : ''}
 
-🚫Banned: False
+💠Limit: ${user.limit}
 
-💠Limit: 10
+🔮Role: ${user.role}
 
-🔮Level: ${who.level}
+🎐XP: ${user.xp}
+
+⚜️Level: ${user.level}
 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', banned ? 'if you get banned' : str, m, false, { contextInfo: { mentionedJid } })
