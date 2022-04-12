@@ -1,8 +1,8 @@
 let handler = async (m, { conn }) => {
-  conn.sendFile(m.chat, 'https://api.xteam.xyz/randomimage/ahegao?APIKEY=4a8b9aba75823076', '', 'Here..?', m)
+  conn.sendFile(m.chat, 'https://api.xteam.xyz/randomimage/ahegao?APIKEY=4a8b9aba75823076', '', '▼・ᴥ・▼', m)
 }
 handler.help = ['ahegao']
-handler.tags = ['nsfw']
+handler.tags = ['premium']
 handler.command = /^(ahegao)$/i
 
 handler.limit = true
