@@ -18,12 +18,12 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
   }
 }
 handler.help = ['nhentai', 'nhs'].map(v => v + ' <pencarian>')
-handler.tags = ['NSFW']
+handler.tags = ['premium']
 handler.command = /^nhentai?$/i
 handler.owner = false
 handler.mods = false
 handler.premium = true
-handler.group = false
+handler.group = true
 handler.private = true
 
 handler.admin = false
