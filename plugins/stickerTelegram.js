@@ -3,7 +3,7 @@ const { MessageType } = require('@adiwajshing/baileys')
 const { sticker } = require('../lib/sticker')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) throw `uhm.. where's the url??\n\nExample:\n${usedPrefix + command} https://t.me/addstickers/`
-    if (!args[0].match(/(https:\/\/t.me\/addstickers\/)/gi)) throw `url salah`
+    if (!args[0].match(/(https:\/\/t.me\/addstickers\/)/gi)) throw `*𝙸𝙽𝚅𝙰𝙻𝙸𝙳 𝚄𝚁𝙻*`
     let packName = args[0].replace("https://t.me/addstickers/", "")
 
     let gas = await fetch(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getStickerSet?name=${encodeURIComponent(packName)}`, { method: "GET", headers: { "User-Agent": "GoogleBot" } })
