@@ -1,4 +1,4 @@
-let limit = 30
+let limit = 50
 let fetch = require('node-fetch')
 const { servers, ytv } = require('../lib/y2mate')
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
@@ -13,14 +13,14 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     try { _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
     catch (e) { }
     if (!isLimit) conn.sendFile(m.chat, dl_link, '', `
-*Title:* ${title}
-*File Size:* ${filesizeF}
+*𝚃𝙸𝚃𝙻𝙴:* ${title}
+*𝙵𝙸𝙻𝙴 𝚂𝙸𝚉𝙴:* ${filesizeF}
   `.trim(), m, 0, {
       ..._thumb,
       asDocument: chat.useDocument
     })
   } catch (e) {
-    return await conn.sendButton(m.chat, 'Server Error', '', 'Try Again', `${usedPrefix + command} ${args[0]}`)
+    return await conn.sendButton(m.chat, '_*𝚂𝙴𝚁𝚅𝙴𝚁 𝙴𝚁𝚁𝙾𝚁*_', '', '𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽', `${usedPrefix + command} ${args[0]}`)
   }
 }
 handler.help = ['mp4', 'v', ''].map(v => 'yt' + v + ` <url> [server: ${servers.join(', ')}]`)
