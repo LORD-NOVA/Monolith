@@ -6,14 +6,14 @@ let handler = async (m, { text, usedPrefix, command }) => {
     switch (v.type) {
       case 'video': return `
 *${v.title}* (${v.url})
-Duration: ${v.timestamp}
-Uploaded ${v.ago}
-${v.views} Viewer
+𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽: ${v.timestamp}
+𝚄𝙿𝙻𝙾𝙰𝙳𝙴𝙳: ${v.ago}
+${v.views} 𝚅𝙸𝙴𝚆𝙴𝚁𝚂
       `.trim()
       case 'channel': return `
 *${v.name}* (${v.url})
-_${v.subCountLabel} (${v.subCount}) Subscriber_
-${v.videoCount} video
+_${v.subCountLabel} (${v.subCount}) 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴𝚁𝚂_
+${v.videoCount} 𝚅𝙸𝙳𝙴𝙾𝚂
 `.trim()
     }
   }).filter(v => v).join('\n========================\n')
