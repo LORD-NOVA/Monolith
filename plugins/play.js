@@ -2,11 +2,11 @@ const { servers, yta, ytv } = require('../lib/y2mate')
 let yts = require('yt-search')
 let fetch = require('node-fetch')
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `uhm.. what are you looking for?\n\nexample:\n${usedPrefix + command} PaniPalli`
+  if (!text) throw `uhm.. what are you looking for?\n\nexample:\n${usedPrefix + command} 𝙴𝙻 𝚂𝙰𝙻𝚅𝙰𝙳𝙾𝚁 𝙱𝚈 𝚂𝙴𝚀𝚄𝙾𝙸𝙰`
   let chat = global.db.data.chats[m.chat]
   let results = await yts(text)
   let vid = results.all.find(video => video.seconds < 3600)
-  if (!vid) throw 'Content Not found'
+  if (!vid) throw '𝙲𝙾𝙽𝚃𝙴𝙽𝚃 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳'
   let isVideo = /2$/.test(command)
   let yt = false
   let yt2 = false
@@ -19,20 +19,21 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
       usedServer = server
       break
     } catch (e) {
-      m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\ntry again...'}`)
+      m.reply(`𝚂𝙴𝚁𝚅𝙴𝚁 ${server} 𝙴𝚁𝚁𝙾𝚁!${servers.length >= i + 1 ? '' : '\n𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽...'}`)
     }
   }
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
-*Title:* ${title}
-*Audio File Size:* ${filesizeF}
-*Video File Size:* ${yt2.filesizeF}
-*Play Doesnt Work ,In Disappearing mode*
-`.trim(), watermark, '🎵ᴀᴜᴅɪᴏ', `.yta ${vid.url}`, '🎥ᴠɪᴅᴇᴏ', `.ytv ${vid.url}`)
+🎧*𝚃𝚒𝚝𝚕𝚎:* ${title}
+🎵*𝙰𝚞𝚍𝚒𝚘 𝚏𝚒𝚕𝚎 𝚜𝚒𝚣𝚎:* ${filesizeF}
+🎬*𝚅𝚒𝚍𝚎𝚘 𝚏𝚒𝚕𝚎 𝚜𝚒𝚣𝚎:* ${yt2.filesizeF}
+
+🔇*𝙿𝙻𝙰𝚈 𝙳𝙾𝙴𝚂𝙽𝚃 𝚆𝙾𝚁𝙺 𝙸𝙽 𝙳𝙸𝚂𝙰𝙿𝙿𝙴𝙰𝚁𝙸𝙽𝙶 𝙼𝙾𝙳𝙴*
+`.trim(), watermark, '🎵ᴀᴜᴅɪᴏ', `.yta ${vid.url}`, '🎥ᴠɪᴅᴇᴏ', `.yt ${vid.url}`)
 }
 handler.help = ['song','play','?'].map(v => v + ' <query>')
 handler.tags = ['downloader']
-handler.command = /^(play|song|music|yt)$/i
+handler.command = /^(play|song|music)$/i
 
 handler.exp = 0
 
