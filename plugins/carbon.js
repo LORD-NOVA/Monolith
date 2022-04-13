@@ -1,13 +1,9 @@
-/* Codded by @nova
-Telegram: t.me/just_that_regular_kid
-Instagram: www.instagram.com/gideon_triumph 
-*/
-
-const Asena = require('../events');
+const Julie = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
-const dd = "ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ ᴍᴏɴᴏʟɪᴛʜ"
+const dd = "© ᴍᴏɴᴏʟɪᴛʜ ʙʏ 
+"
 
 const Language = require('../language');
 const Lang = Language.getString('weather');
@@ -15,7 +11,7 @@ const Lang = Language.getString('weather');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'carbon$', fromMe: true, desc: Lang.CARBON_DESC}, (async (message, match) => {
+    Julie.addCommand({pattern: 'carbon$', fromMe: true, desc: Lang.CARBON_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.REPLY, MessageType.text);
 
@@ -82,7 +78,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'carbon$', fromMe: false, desc: Lang.CARBON_DESC}, (async (message, match) => {
+    Julie.addCommand({pattern: 'carbon$', fromMe: false, desc: Lang.CARBON_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.REPLY, MessageType.text);
 
@@ -144,11 +140,13 @@ else if (Config.WORKTYPE == 'public') {
         var respoimage = await axios.get('https://thiccyscarbonapi.herokuapp.com/?code=' + pay + '&theme=' + Theme[i] + '&exportSize=3x&paddingVertical=200px&paddingHorizontal=200px&backgroundColor=rgba(' + rgbafirst + ',' + rgbasecond + ',' + rgbathird + ')&language=' + Language[l], { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, { mimetype: Mimetype.png, caption: dd})
-   }
-}));
-handler.help = ["carbon"];
-handler.tags = ["tools"];
+    }));
+}
 
-handler.command = /^(carbon)$/i;
+handler.help = ['carbon']
+handler.tag = ['tools']
+handler.command = /^carbon$/i
 
-module.exports = handler;
+handler.limit = true
+
+module.exports = handler
