@@ -7,7 +7,7 @@ let handler = async (m, { conn, args }) => {
   conn.sendFile(m.chat, res, 'wibu.mp4', `wangy wangy wangy`, m, false)
 }
 handler.help = ['wibu'].map(v => v + ' ')
-handler.tags = ['anime']
+handler.tags = ['premium']
 
 handler.command = /^(wibu)$/i
 handler.owner = false
