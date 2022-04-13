@@ -10,13 +10,13 @@ let spotifyinfo = `✨️ *Title:* ${title}
 🗣️ *Artists:* ${artists}
 🎆️ *Album:* ${album}
 🌐️ *URL*: ${url}
-💚️ *Direct URL:* ${preview_mp3}\n\n@Ammu`
+💚️ *Direct URL:* ${preview_mp3}\n\n@Monolith`
 
   await conn.sendFile(m.chat, thumb, '', spotifyinfo, m)
   await conn.sendFile(m.chat, preview_mp3, 'spotify.mp3', spotifyinfo, m)
 }
 handler.help = ['spotify <query>']
 handler.tags = ['internet']
-handler.command = /^(spotify|music|)$/i
+handler.command = /^(spotify|music)$/i
 // Made By github.com/TOXIC-DEVIL
 module.exports = handler
