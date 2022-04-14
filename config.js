@@ -38,7 +38,7 @@ global.wait = '_*✨𝙱𝚄𝙵𝙵𝙴𝚁𝙸𝙽𝙶...✨*_'
 global.eror = '_*𝚂𝙴𝚁𝚅𝙴𝚁 𝙴𝚁𝚁𝙾𝚁*_'
 global.fla = 'https://camo.githubusercontent.com/5ab725ad8a78684cb30dcce25a65c41c5137d9ffe959809f82f5c79e8cf93f51/68747470733a2f2f74656c656772612e70682f66696c652f6237356530303133363937386464643161613535382e6a7067?raw=true'
 
-global.watermark = '© ᴍᴏɴᴏʟɪᴛʜ ʙʏ ɴᴏᴠᴀ'
+global.watermark = '© ᴍᴏɴᴏʟɪᴛʜ ʙʏ ɴᴏᴠᴀ ×፝֟͜×'
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
