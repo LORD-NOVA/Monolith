@@ -1,13 +1,12 @@
 let fetch = require('node-fetch')
-let handler = async (m, { msg }) => {
-  let res = await fetch(global.API('https://api.brainshop.ai', '/get?bid=164410&key=ctTB3IBU2TLXGflz&uid=[uid]&msg=', { msg: encodeURIComponent(msg) }, ''))
+let handler = async (m, { text }) => {
+  let res = await fetch(global.API('https://api-sv2.simsimi.net', '/v2/', { text: encodeURIComponent(text), lc: "en" }, ''))
   let json = await res.json()
   if (json.success) m.reply(json.success)
   else throw json
 }
-handler.help = ['bot'].map(v => v + ' <text>')
+handler.help = ['bot'].map(v => v + ' <teks>')
 handler.tags = ['fun']
-handler.command = /^(bot|simi)$/i
+handler.command = /^(bot|monolith)$/i
 
 module.exports = handler
-
