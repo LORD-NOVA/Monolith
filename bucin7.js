@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  await conn.sendButton(m.chat, `“${pickRandom(global.bucin)}”`, watermark, 'Quotes', `${usedPrefix + command}`)
+  await conn.sendButton(m.chat, `“${pickRandom(global.bucin7)}”`, watermark, 'Quotes', `${usedPrefix + command}`)
 }
 handler.help = ['lifequotes']
 handler.tags = ['quotes']
@@ -21,7 +21,7 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.bucin = [
+global.bucin7 = [
   "The greatest glory in living lies not in never falling, but in rising every time we fall.\n           -Nelson Mandela",
   "The way to get started is to quit talking and begin doing.\n           -Walt Disney",
   "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.\n        -Steve Jobs",
