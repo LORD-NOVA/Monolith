@@ -186,7 +186,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┊☞ ✪ *ᴅᴀᴛᴇ* : ${date},
 ┊☞ ✪ *ᴏᴡɴᴇʀ* : ғʏ ɴᴏᴠᴀ 2ᴋ
 ┊☞ ✪ *ᴘʀᴇғɪx* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
-┊☞ ✪ *ʙᴏᴛ ɴᴀᴍᴇ* : ᴍᴏɴᴏʟɪᴛʜ
+┊☞ ✪ *ʙᴏᴛ ɴᴀᴍᴇ* : ᴍᴏɴᴏʟɪᴛʜ ×፝֟͜×
 └─────────────────⸙ \n\ ______`
           
            .trim(),
@@ -365,7 +365,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/B5UzNff.jpeg")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ©', '✪ ʙᴏᴛ ᴏᴡɴᴇʀ ✪', '.owner', '✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ✪', '.?', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://telegra.ph/file/32f4ce6edbbc37650f987.jpg")).buffer(), text.trim(), '© ᴍᴏɴᴏʟɪᴛʜ ×፝֟͜×', '✪ ʙᴏᴛ ᴏᴡɴᴇʀ ✪', '.owner', '✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ✪', '.?', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
