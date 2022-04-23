@@ -1,4 +1,4 @@
-# Monolith
+# 𝕄𝕆ℕ𝕆𝕃𝕀𝕋ℍ 𝔹𝕐 ℕ𝕆𝕍𝔸
 
 <div align="center">
   <img border-radius: 15px src="https://telegra.ph/file/32f4ce6edbbc37650f987.jpg" width="200" height="200"/>
@@ -12,7 +12,7 @@
 <p align="center">
     <a href="https://git.io/J0hKr">
         <img
-        src="https://readme-typing-svg.herokuapp.com?size=30&width=800&lines=Monolith+Is+A+Modified+Version+Of;Eva+By+Nova;We+Have+Cloned+The+Project+And+Added;Some+More+Things."
+        src="https://readme-typing-svg.herokuapp.com?size=30&width=800&lines=𝕄𝕆ℕ𝕆𝕃𝕀𝕋ℍ+𝕀𝕊+𝔸+𝕄𝕆𝔻𝕌𝕃𝔸ℝ+𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ+𝔹𝕆𝕋+𝕎𝕀𝕋ℍ+100++𝔽𝔼𝔸𝕋𝕌ℝ𝔼𝕊;𝔻𝕆+ℕ𝕆𝕋+ℂℍ𝔸ℕ𝔾𝔼+𝔸ℕ𝕐+ℂ𝕆𝔻𝔼+𝕆ℝ+𝕋ℍ𝔼+𝕎ℍ𝕆𝕃𝔼+𝔽𝕆ℝ𝕂+𝕎𝕀𝕃𝕃+𝔹𝔼+𝔻𝔸𝕄𝔸𝔾𝔼𝔻+🙂."
             alt="Typing SVG"
         />
     </a>
@@ -60,7 +60,7 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
   <a href="https://github.com/N0-VA/Monolith"><img src="https://i.imgur.com/aSw2GKZ.jpeg" />
 </p>
 
-## 📢 Guide
+## 🎥 GUIDE
 Click WA logo to Join Support Group 👇
     <br>
 <br>
@@ -68,12 +68,12 @@ Click WA logo to Join Support Group 👇
   <div align="center">
 
 
-## Developers
+## DEVELOPERS
   <div align="center">
   
-  [![FY NOVA 2k](https://telegra.ph/file/a7c97beebc2a850b6d694.jpg)](https://github.com/N0-VA)[`FY NOVA 2k`](https://github.com/N0-VA)
+  [![FY NOVA 2k](https://telegra.ph/file/a7c97beebc2a850b6d694.jpg)](https://github.com/N0V-A)[`FY NOVA 2k`](https://github.com/N0V-A)
 ----|
-   `Base, Bug Fixes, Modules`
+   `Base, Bug Fixes, Modules, Development`
 
 
                                   
