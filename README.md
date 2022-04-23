@@ -71,7 +71,7 @@ Click WA logo to Join Support Group 👇
 ## Developers
   <div align="center">
   
-  [![NOVA](https://telegra.ph/file/b75e00136978ddd1aa558.jpg)](https://github.com/N0-VA)[`NOVA`](https://github.com/N0-VA)
+  [![FY NOVA 2k](https://telegra.ph/file/a7c97beebc2a850b6d694.jpg)](https://github.com/N0-VA)[`FY NOVA 2k`](https://github.com/N0-VA)
 ----|
    `Base, Bug Fixes, Modules`
 
