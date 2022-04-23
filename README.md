@@ -23,7 +23,7 @@
 ----------
 
 <p align="center">
-  <a href="https://youtu.be/5shvYdTasw"><img src="https://i.imgur.com/XkDscpl.jpeg" />
+  <a href="https://youtu.be/5shvYdTasw"><img src="https://telegra.ph/file/81c49949f8e519ec83242.jpg" />
 </p>
 
 -------
