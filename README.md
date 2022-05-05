@@ -1,4 +1,4 @@
-# © 𝕄𝕆ℕ𝕆𝕃𝕀𝕋ℍ ×፝֟͜×
+# © MONOLITH ×፝֟͜×
 
 <div align="center">
   <img border-radius: 15px src="https://telegra.ph/file/32f4ce6edbbc37650f987.jpg" width="200" height="200"/>
