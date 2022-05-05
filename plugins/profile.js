@@ -53,7 +53,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     conn.sendFile(m.chat, pp, 'pp.jpg', banned ? 'if you get banned' : str, m, false, { contextInfo: { mentionedJid } })
   }
 }
-handler.help = ['profile [@user]']
+handler.help = ['profile [@user]', 'alive']
 handler.tags = ['tools']
-handler.command = /^profile?$/i
+handler.command = /^profile|alive?$/i
 module.exports = handler
