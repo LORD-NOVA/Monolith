@@ -6,7 +6,8 @@
   "directories": {
     "lib": "lib",
     "src": "src",
-    "plugins": "plugins"
+    "plugins": "plugins",
+    "node": "16.x"
   },
   "scripts": {
     "start": "node index.js --public",
