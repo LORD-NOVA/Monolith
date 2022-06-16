@@ -7,7 +7,7 @@
     "lib": "lib",
     "src": "src",
     "plugins": "plugins",
-    "node": "16.x"
+    "node": "16.13.1"
   },
   "scripts": {
     "start": "node index.js --public",
@@ -55,7 +55,7 @@
     "moment-timezone": "^0.5.33",
     "mongoose": "^6.0.11",
     "node-fetch": "^2.6.1",
-    "node": "16.x",
+    "node": "^16.13.1",
     "node-gtts": "^2.0.2",
     "node-webpmux": "^3.1.0",
     "qrcode": "^1.4.4",
