@@ -3,6 +3,9 @@
   "version": "1.1.2",
   "description": "ʙʏ ɴᴏᴠᴀ",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "directories": {
     "lib": "lib",
     "src": "src",
