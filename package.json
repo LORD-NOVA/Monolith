@@ -61,7 +61,7 @@
     "mongoose": "^6.0.11",
     "node-fetch": "^2.6.1",
     "node": "^16.13.1",
-    "node-gtts": "^2.88.2",
+    "node-gtts": "^2.x",
     "node-webpmux": "^3.1.0",
     "qrcode": "^1.4.4",
     "qrcode-terminal": "^0.12.0",
