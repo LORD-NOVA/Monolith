@@ -4,7 +4,9 @@
   "description": "ʙʏ ɴᴏᴠᴀ",
   "main": "index.js",
   "engines": {
-    "node": "16.x"
+    "node": "16.x",
+    "yarn": "1.22.18",
+    "npm": "8.11.0"
   },
   "directories": {
     "lib": "lib",
