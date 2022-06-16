@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/N0-VA/Wizard-Ser.git"
+    "url": "git+https://github.com/LORD-NOVA/Monolith.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -22,17 +22,18 @@
   "author": "ɴᴏᴠᴀ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/N0-VA/Wizard-Ser/issues"
+    "url": "https://github.com/LORD-NOVA/Monolith/issues"
   },
-  "homepage": "https://github.com/N0-VA/Wizard-Ser",
+  "homepage": "https://github.com/LORD-NOVA/Monolith",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.2",
-    "awesome-phonenumber": "^2.54.0",
-    "axios": "^0.21.1",
+    "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^0.24.0",
     "brainly-scraper-v2": "^2.0.3",
     "canvacord": "^5.2.3",
-    "cfonts": "^2.9.3",
-    "chalk": "^4.1.1",
+    "cfonts": "^2.10.0",
+    "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "emoji-api": "^1.0.2",
     "express": "^4.17.1",
